@@ -123,7 +123,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   padding: 0px 14px 40px 14px;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .projectCard {
@@ -169,7 +169,7 @@
 .projectBio {
   text-align: right;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
 }
 
