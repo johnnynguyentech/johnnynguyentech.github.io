@@ -29,11 +29,12 @@
   grid-template-columns: auto auto;
   /* margin: 0 44px 36px 44px; */
   margin-bottom: 36px;
+  gap: 1em;
 }
 
 .quality {
   text-align: center;
-  padding: 14px 36px;
+  padding: 14px 0;
 }
 
 #qualityIcon {
@@ -88,13 +89,13 @@
 }
 
 .skillContainer {
-  padding: 0px 30px 10px 30px;
+  padding-bottom: 16px;
 }
 
 .skillTitle {
   color: white;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   border-bottom: 2px solid white;
   margin-bottom: 8px;
 }
@@ -111,7 +112,7 @@
   background-color: rgba(27, 31, 34, 0.85);
   border: 1px solid white;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   margin: 5px;
   padding: 1px 15px;
   border-radius: 30px;
@@ -119,11 +120,11 @@
 
 /* PROJECTS */
 .projectContainer {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  padding: 0px 14px 40px 14px;
-  gap: 0.5em;
+  /* padding: 0px 14px 40px 14px; */
+  gap: 1em;
 }
 
 .projectCard {
