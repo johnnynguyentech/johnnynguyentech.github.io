@@ -137,17 +137,6 @@
                     </a>
                   </div>
                   <div class="projectCard">
-                    <a href="https://goalkeeper-ts.web.app/" target="_blank">
-                      <img src="images/goalkeeper.jpeg" alt="Project" id="projectImage">
-                      <div class="projectInfo">
-                        <div class="projectHeading">
-                            <h4 class="projectName">GoalKeeper - TS</h4>
-                        </div>
-                        <p class="projectBio">A goal keeping application utilizing TypeScript.</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="projectCard">
                     <a href="https://openai-chatgpt-clone.web.app/" target="_blank">
                       <img src="images/ChatGPTLogo.png" alt="Project" id="projectImage">
                       <div class="projectInfo">
@@ -340,7 +329,7 @@
               <li><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/johnnynguyentech" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
             </ul>
-						<p class="copyright">&copy; JOHNNY NGUYEN 2024</p>
+						<p class="copyright">&copy; JOHNNY NGUYEN <span id="currentYear"></span></p>
 					</footer>
 
 			</div>
@@ -355,6 +344,9 @@
 			<script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="assets/js/contact.js"></script>
-
+      <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
 	</body>
 </html>
