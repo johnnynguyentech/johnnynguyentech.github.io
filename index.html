@@ -5,33 +5,34 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" href="images/icon.jpg">
+    <link rel="icon" href="images/icon.ico">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Header -->
+          <div class="logo">
+            <h3>Johnny Nguyen</h3>
+            <p>Frontend Developer</p>
+          </div>
 					<header id="header">
-						<div class="logo">
-              <!-- <h1 id="j">J</h1> -->
-              <!-- logo here add css 1463 -->
-						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>JOHNNY NGUYEN</h1>
+								<h1>Johnny Nguyen</h1>
 								<p>Frontend Developer</p>
 							</div>
 						</div>
-						<nav>
+						<nav id="navbar">
 							<ul>
 								<li><a href="#about">About</a></li>
-								<li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
 								<li><a href="#contact">Contact</a></li>
@@ -45,83 +46,17 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-                <center>
+                <div class="aboutContainer">
+                  <div>
+                    <p>Hi, I'm Johnny, a Frontend Developer with four years of experience in web development and e-commerce, mainly working with React and CSS. I love building user-friendly and scalable UI applications, always looking for ways to make things smoother and more intuitive.</p>
+                    <p>What keeps me going? Honestly, it's the challenge and creativity that come with coding—turning ideas into real, usable products that actually make a difference. I’m all about teamwork, sharing ideas, and learning from others to build great things together.</p>
+                  </div>
                   <div class="headshotWrapper">
                     <img src="images/headshot.jpg" alt="Avatar" id="headshot">
                   </div>
-                </center>
-                <p>Hi, my name is Johnny! Currently working as a Frontend Developer with a solid 4-year track record in web development and e-commerce, focusing on React and CSS. Known for being a user-centric and innovative developer, I bring a blend of creativity, technical acumen, and a user-centric mindset to my work.</p>
-								<p>What keeps me going is my passion for building scalable UI applications and my deep belief in the transformative power of programming. My goal is to create solutions that not only meet business objectives but also significantly improve the lives of users. I’m a team player at heart, always ready to collaborate, share insights, and contribute to collective success.</p>
-              </article>
-
-						<!-- Skills -->
-							<article id="skills">
-                <h2 class="major">Skills</h2>
-                <div class="skillContainer">
-                  <h3 class="skillTitle">Languages</h3>
-                  <div class="skillItems">
-                    <span class="skill">HTML</span>
-                    <span class="skill">CSS</span>
-                    <span class="skill">JavaScript</span>
-                    <span class="skill">TypeScript</span>
-                    <span class="skill">Shopify Liquid</span>
-                    <span class="skill">Python</span>
-                    <span class="skill">SQL</span>
-                  </div>
-                  <h3 class="skillTitle">Frameworks & Libraries</h3>
-                  <div class="skillItems">
-                    <span class="skill">React</span>
-                    <span class="skill">Redux</span>
-                    <span class="skill">Next.js</span>
-                    <span class="skill">jQuery</span>
-                    <span class="skill">Material UI</span>
-                    <span class="skill">Chakra UI</span>
-                    <span class="skill">Bootstrap</span>
-                    <span class="skill">GSAP</span>
-                  </div>
-                  <h3 class="skillTitle">Platforms</h3>
-                  <div class="skillItems">
-                    <span class="skill">Git</span>
-                    <span class="skill">GitHub</span>
-                    <span class="skill">BitBucket</span>
-                    <span class="skill">Jira</span>
-                    <span class="skill">Firebase</span>
-                    <span class="skill">Adobe XD</span>
-                    <span class="skill">Shopify Plus</span>
-                  </div>
                 </div>
-                <!-- <hr> -->
-                <!-- <div class="qualityContainer">
-                  <div class="quality">
-                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-                      <i class="fas fa-tachometer-alt fa-1x" id="qualityIcon"></i>
-                    </div></div></div></div>
-                    <h2 class="qualityTitle">Fast</h2>
-                    <p class="qualityBio">Optimal code for lag free and fast load times, my highest priority.</p>
-                  </div>
-                  <div class="quality">
-                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-                      <i class="fas fa-mobile-alt fa-1x" id="qualityIcon"></i>
-                    </div></div></div></div>
-                    <h2 class="qualityTitle">Responsive</h2>
-                    <p class="qualityBio">My layouts work with many devices, both big and small.</p>
-                  </div>
-                  <div class="quality">
-                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-                      <i class="far fa-lightbulb fa-1x" id="qualityIcon"></i>
-                    </div></div></div></div>
-                    <h2 class="qualityTitle">Intuitive</h2>
-                    <p class="qualityBio">I am an advocate for easy to use, intuitive UX/UI.</p>
-                  </div>
-                  <div class="quality">
-                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-                      <i class="fas fa-rocket fa-1x" id="qualityIcon"></i>
-                    </div></div></div></div>
-                    <h2 class="qualityTitle">Dynamic</h2>
-                    <p class="qualityBio">Websites don't need to be static, I love to make pages come to life.</p>
-                  </div>
-                </div> -->
-							</article>
+                
+              </article>
 
 						<!-- Projects -->
 							<article id="projects">
@@ -129,70 +64,48 @@
                 <div class="projectContainer">
                   <div class="projectCard">
                     <a href="https://fridge-raider.web.app/" target="_blank">
-                      <img src="images/fridge-raider.jpg" alt="Project" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">FridgeRaider</h4>
                         </div>
                         <p class="projectBio">Generate recipes from leftover ingredients with the use of AI.</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
-                  <!-- <div class="projectCard">
-                    <a href="https://openai-chatgpt-clone.web.app/" target="_blank">
-                      <img src="images/ChatGPTLogo.png" alt="Project" id="projectImage">
-                      <div class="projectInfo">
-                        <div class="projectHeading">
-                            <h4 class="projectName">ChatGPT: A Clone</h4>
-                        </div>
-                        <p class="projectBio">A simple clone of ChatGPT utilizing the gpt-3.5-turbo API.</p>
-                      </div>
-                    </a>
-                  </div> -->
                   <div class="projectCard">
                     <a href="https://atmosphere-forecast.web.app/" target="_blank">
-                      <img src="images/atmosphere.jpg" alt="Project" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">atmosphere</h4>
                         </div>
                         <p class="projectBio">Get realtime weather data from over 200,000 cities.</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://podspot-ede01.web.app/" target="_blank">
-                      <img src="images/podspot.jpg" alt="Project" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">PodSpot</h4>
                         </div>
                         <p class="projectBio">Listen, comment, and rate your favorite podcasts.</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://execute-ab745.web.app/" target="_blank">
-                      <img src="images/execute.jpg" alt="Project" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">execute.</h4>
                         </div>
                         <p class="projectBio">A to-do list application to plan, organize, and execute.</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
-                  <!-- <div class="projectCard">
-                    <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" target="_blank">
-                      <img src="images/ucsc.jpg" alt="Project" id="projectImage">
-                      <div class="projectInfo">
-                        <div class="projectHeading">
-                            <h4 class="projectName">UCSC UX Design</h4>
-                        </div>
-                        <p class="projectBio">A redesign of the UCSC Baskin School of Engineering website with a more simplified approach.</p>
-                      </div>
-                    </a>
-                  </div> -->
                 </div>
               </article>
 
@@ -202,86 +115,79 @@
                 <div class="projectContainer">
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-79fbfde4-c775-4cc7-8852-d6e953bd1d52/" target="_blank">
-                      <img src="images/react-ts.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">React & Typescript</h4>
-                            <!-- <h5 class="projectDate">October 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy React & Typescript - The Practical Guide</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-14e0ecce-ed63-4d61-aba4-027ca95cd13b/" target="_blank">
-                      <img src="images/JS-cert.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">Data Structures</h4>
-                            <!-- <h5 class="projectDate">October 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy Javascript Algorithms and Data Structures Masterclass</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="images/scrum.pdf" target="_blank">
-                      <img src="images/scrum.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">Certified ScrumMaster</h4>
-                            <!-- <h5 class="projectDate">October 2020</h5> -->
                         </div>
                         <p class="projectBio">Scrum Alliance & Agile For All - Certified ScrumMaster Class</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-7b1ca7f4-eb79-4c7a-8a3f-262688adf22b/" target="_blank">
-                      <img src="images/react.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">React</h4>
-                            <!-- <h5 class="projectDate">October 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy React - The Complete Guide (incl Hooks, React Router, Redux) Bootcamp</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-13cb3863-1c80-4ab1-a469-b26e626b89fc/" target="_blank">
-                      <img src="images/webcert.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">Web Development</h4>
-                            <!-- <h5 class="projectDate">May 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy Python and Django Full Stack Web Developer Bootcamp</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-58f0d9b5-faa3-4f1a-8fc6-83b64850c8d8/" target="_blank">
-                      <img src="images/python.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">Python</h4>
-                            <!-- <h5 class="projectDate">March 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy Complete Python Bootcamp: Go from zero to hero in Python 3</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                   <div class="projectCard">
                     <a href="https://www.udemy.com/certificate/UC-936b9be2-d774-46b2-a45b-a1508d94233c/" target="_blank">
-                      <img src="images/SQL.jpg" alt="Certification" id="projectImage">
                       <div class="projectInfo">
                         <div class="projectHeading">
                             <h4 class="projectName">SQL</h4>
-                            <!-- <h5 class="projectDate">March 2020</h5> -->
                         </div>
                         <p class="projectBio">Udemy The Complete SQL Bootcamp</p>
                       </div>
+                      <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
@@ -312,7 +218,7 @@
                   </ul>
                 <p id="status"></p>
                 </form>
-								<ul class="icons">
+								<ul class="icons icons-contact">
 									<li><a href="Resume_Nguyen.pdf" target="_blank" class="icon solid far fa-file"><span class="label">Resume</span></a></li>
 									<li><a href="mailto:johnnynguyentech@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 									<li><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -331,7 +237,7 @@
               <li><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/johnnynguyentech" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
             </ul>
-						<p class="copyright">&copy; JOHNNY NGUYEN <span id="currentYear"></span></p>
+						<!-- <p class="copyright">&copy; JOHNNY NGUYEN <span id="currentYear"></span></p> -->
 					</footer>
 
 			</div>
