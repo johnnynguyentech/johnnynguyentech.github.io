@@ -41,6 +41,14 @@ body.is-article-visible .logo {
   transition: 0.3s;
 }
 
+#navbar ul li:first-child{
+  border-radius: 4px 0 0 4px;
+}
+
+#navbar ul li:last-child{
+  border-radius: 0 4px 4px 0;
+}
+
 #navbar ul li:hover{
   background-color: #ededed;
 }
