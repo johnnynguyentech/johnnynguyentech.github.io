@@ -37,7 +37,7 @@ body.is-article-visible .logo {
   text-transform: uppercase;
 }
 
-#navbar ul li a{
+#navbar ul li{
   transition: 0.3s;
 }
 
@@ -491,7 +491,7 @@ h2.major{
 } */
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.3;
   letter-spacing: 0rem;
 }
@@ -521,7 +521,7 @@ h6 {
 
 @media screen and (max-width: 736px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 2.8rem;
     line-height: 1.4;
   }
 
