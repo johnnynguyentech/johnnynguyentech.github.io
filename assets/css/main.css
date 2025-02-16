@@ -1196,7 +1196,13 @@ ul.icons {
 
 #footer .icons{
   color: #444444;
+  transition: 0.3s;
 }
+
+#footer .icons li a:hover{
+  background-color: #ededed;
+}
+
 
 ul.icons li {
   display: inline-block;
