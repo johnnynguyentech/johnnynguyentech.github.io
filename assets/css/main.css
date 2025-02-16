@@ -37,6 +37,14 @@ body.is-article-visible .logo {
   text-transform: uppercase;
 }
 
+#navbar ul li a{
+  transition: 0.3s;
+}
+
+#navbar ul li:hover{
+  background-color: #ededed;
+}
+
 .aboutContainer{
   display: flex;
   justify-content: space-between;
